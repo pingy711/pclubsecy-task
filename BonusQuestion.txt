@@ -1,0 +1,7 @@
+There was another CP question which I tried to make (I ended up spending most of my time on making that question) but alas I couldn't solve it myself.  
+
+The question is as follows:  
+You are given N points each having coordinates (x,y). Your task is to find the polygon formed by these points such that the area enclosed by them is minimum.  
+Additional constraints are that one point can and must be connected to exactly 2 other points and none of the edges of the polygon can intersect.  
+You can assume that N is always more than 3.  
+Hint: The polygon need not be convex!
