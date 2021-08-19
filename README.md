@@ -18,4 +18,21 @@ next b lines will be the value of each bid
 
 Output:  
 b lines with output '1' if you can cut the necklace to match the bid price, and '0' if there is no way to cut the necklace such that the piece value matches the bid price
+  
+Constraints:  
+20% marks for len<=10  
+100% marks for any value of len  
+Execution time: 1sec (can be changed)  
+  
+Sample Input:  
+8  
+8 2 34 32 9 1 1 2  
+3  
+68  
+419  
+3  
 
+Sample output:  
+1  
+0  
+1
