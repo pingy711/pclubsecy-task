@@ -24,7 +24,7 @@ int main(){
     
     for(int bid_number=0;bid_number<b;++bid_number){
         
-        while((back!=len)&&(!possible)&&(back<=front))
+        while((back!=len)&&(!possible)&&(back<=front)){
             
             if(sum+beads[front]==bids[bid_number]){
                 possible=true;
@@ -34,6 +34,9 @@ int main(){
                 front++;
             }
             else{
+                if(sum==0){
+                    break;
+                }
                 sum-=beads[back];
                 back++;
             }
