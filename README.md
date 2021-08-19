@@ -21,7 +21,7 @@ b lines with output '1' if you can cut the necklace to match the bid price, and 
   
 Constraints:  
 20% marks for len<=10  
-100% marks for any value of len  
+100% marks for len<=1000  
 Execution time: 1sec (can be changed)  
   
 Sample Input:  
